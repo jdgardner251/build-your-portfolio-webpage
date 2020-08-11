@@ -1,10 +1,15 @@
 
+/*Went to coolers to determine a color pallet.  Still a lot of ways to make this
+look better but for now the color scheme seems to be ok. */
+
 body {
 	background-color: #F8F9FA;
   margin: 0;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #495057;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 a {
@@ -12,9 +17,12 @@ a {
   text-decoration: none;
 }
 
+/*refer to comment on the #contact a selector below.  I have a couple of questions on this.*/
 a:hover {
   color: #3a86ff;
 }
+
+/*Border-radius to round the picture*/
 
 img {
   height: 200px;
@@ -63,6 +71,7 @@ header a {
   margin-right: 5px;
 }
 
+/* different forms of grouping in css here*/
 p, ul, ol {
   text-align: left;
 }
@@ -75,12 +84,15 @@ p, ul, ol {
   padding-top: 20px;
 }
 
+/*Why are these not styling by the a target up at the top of this css file.  I 
+had to create this selector below to target this specifically. */
 #contact a {
   margin-left: 5px;
   margin-right: 5px;
   color: #495057;
 }
 
+/* targetd the .fab class from favicons.  Would like to talk throug this here.*/
 .fab:hover {
   color: #3a86ff;
 }
